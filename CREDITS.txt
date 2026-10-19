@@ -1,0 +1,9 @@
+Petal Reader is an unofficial personal edition of Book’s Story.
+
+Original app: Book’s Story, created by Acclorite and contributors.
+Copyright (C) 2024–2025 Acclorite.
+Original source: https://github.com/Acclorite/book-story
+Based on upstream v1.8.0, commit b0a21c116fc8ba7eaa59dc8887e5230cfba1a19d.
+License: GNU General Public License v3.0 only (GPL-3.0-only).
+
+Original copyright notices, credits, licenses and contributor links are retained. Personal modifications include series metadata, grouping, numeric ordering, namespace handling and the Petal Reader display name. The original app/author credit appears prominently in About and links to Acclorite’s project. Third-party dependency attribution remains in the original license/credits views and source.
