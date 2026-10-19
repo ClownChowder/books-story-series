@@ -7,3 +7,5 @@ Based on upstream v1.8.0, commit b0a21c116fc8ba7eaa59dc8887e5230cfba1a19d.
 License: GNU General Public License v3.0 only (GPL-3.0-only).
 
 Original copyright notices, credits, licenses and contributor links are retained. Personal modifications include series metadata, grouping, numeric ordering, namespace handling and the Petal Reader display name. The original app/author credit appears prominently in About and links to Acclorite’s project. Third-party dependency attribution remains in the original license/credits views and source.
+
+Voice-style UI adaptation credits Voice by Paul Woitaschek and contributors (GPL), and uses the same Literata font. Literata copyright 2017 The Literata Project Authors, SIL Open Font License 1.1; full font license is bundled in assets/licenses/Literata-OFL.txt. Book’s Story by Acclorite and contributors remains the original Reader app. Color reference: Voice 26.10.3, MaterialKolor 5.0.1 SPEC_2025 TonalSpot.
