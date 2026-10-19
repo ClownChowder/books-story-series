@@ -1,6 +1,6 @@
-# Book’s Story Series
+# Petal Reader
 
-Unofficial personal edition of [Acclorite/book-story](https://github.com/Acclorite/book-story), based on v1.8.0. GPL-3.0-only; upstream copyright and license notices are retained in the source archive.
+**Petal Reader**, formerly Book’s Story Series, is an unofficial personal edition of [Acclorite/book-story](https://github.com/Acclorite/book-story), based on v1.8.0. GPL-3.0-only; upstream copyright and license notices are retained in the source archive.
 
 - Series headers in grid and list layouts, with numeric reading order.
 - EPUB 3 and Calibre series metadata, decimal volumes, omnibus ranges, and unnumbered companions.
@@ -24,3 +24,7 @@ APK filename filter: `^books-story-series\.apk$`
 Signing certificate SHA-256: `386f097ea7de3749f0b0cc87e433d0f8a8a70cebb1848d7e7cb4bd5f60cff2b4`
 
 New tested personal builds must be signed locally with the same key and published here with an increased version code and version name. Obtainium checks and downloads those published releases; it does not merge or build upstream changes automatically. Signing keys and personal ebook-library data are not published.
+
+## Original authors and credits
+
+See [CREDITS.txt](CREDITS.txt) for original authors, upstream projects, recording/model creators and applicable licenses. Original license and copyright notices remain in the corresponding source archives and app assets. No upstream endorsement is implied.
