@@ -2,7 +2,7 @@
 
 **Petal Reader**, formerly Book’s Story Series, is an unofficial personal edition of [Acclorite/book-story](https://github.com/Acclorite/book-story), based on v1.8.0. GPL-3.0-only; upstream copyright and license notices are retained in the source archive.
 
-Current release: [1.8.0-petal.5 · Voice styling](https://github.com/ClownChowder/books-story-series/releases/tag/v1.8.0-petal.5), published October 19, 2026.
+Current release: [1.8.0-petal.7 · trusted Library handoff](https://github.com/ClownChowder/books-story-series/releases/tag/v1.8.0-petal.7), published October 23, 2026.
 
 ## Library and reading
 
@@ -26,15 +26,15 @@ Dynamic color requires Android 12 / API 31 or later; older Android versions use 
 
 ## Release validation and limitations
 
-The 1.8.0-petal.5 release reports 15 host tests and 6 physical-phone tests passed, with build and lint passing subject to documented inherited warnings. Checks cover fixed reference colors, contrast, pure black, all seven schemes, launcher aliases, fonts, series/search layouts and migration.
+Current preview: 19 fresh synthetic host tests passed. Final APKs passed trusted Library handoff, exact-book opening, Undo, consent cancellation/reconnect, and unauthorized query/call tests on disposable emulators. Providers require signature permission, matching caller signature and Library identity. Companion: [Petal Library](https://github.com/ClownChowder/petal-library).
 
-Release testing reported all **267 library entries and database rows unchanged**. Saved settings were byte-identical before the appearance-control smoke test.
+Reader has no INTERNET permission. Lint retains 92 warnings and 388 baseline-filtered errors; this is not a clean-lint claim. Physical performance, battery and live assistive technology remain unqualified for this update. Handoff uses approximate whole-book percentages, so select matching editions. See attached CHECKS.txt and verification.json for artifact-bound results and limits. Earlier releases retain their own historical evidence.
 
 ## Downloads and source
 
 Download `books-story-series.apk` from [Releases](https://github.com/ClownChowder/books-story-series/releases). The complete corresponding source is attached as `books-story-series-source.zip`, including the upstream GPL license and build scripts. The automatic GitHub source archives contain this release-index repository, not the app source; use the explicitly attached source ZIP.
 
-Install the APK on your Android device, allowing APK installation for the app you use to open it if prompted. For an existing personal-edition installation, install over it to retain its app data; package and signing identity are unchanged (version code 18). Back up important library data before updating. Checksums are attached to the release as `SHA256SUMS`.
+Install the APK on your Android device, allowing APK installation for the app you use to open it if prompted. For an existing personal-edition installation, install over it to retain its app data; package and signing identity are unchanged (version code 20). Back up important library data before updating. Checksums are attached to the release as `SHA256SUMS`.
 
 This is a tested personal debug build, not an official upstream release. Package: `ua.acclorite.book_story.series.debug`. It runs alongside the official reader with separate app data.
 
